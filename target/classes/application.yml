@@ -1,0 +1,18 @@
+#服务器配置
+server:
+port: 8080
+
+spring:
+    #springmvc配置
+    mvc:
+        view:
+            prefix: /templates/
+            suffix: .html
+#    thymeleaf:
+#        cache: false
+
+#日志配置
+logging:
+    #日志位置
+    path: logs
+
